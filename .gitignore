@@ -4,6 +4,7 @@ __pycache__/
 .streamlit/
 .env
 *.csv
+!services.csv
 outputs/
 input/
 .DS_Store
