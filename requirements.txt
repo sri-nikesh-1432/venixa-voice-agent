@@ -1,5 +1,7 @@
-streamlit
-groq
+fastapi
+uvicorn
 edge-tts
-python-dotenv
+openai-whisper
 pandas
+python-dotenv
+google-genai
