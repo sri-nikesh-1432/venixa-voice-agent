@@ -8,3 +8,6 @@ __pycache__/
 outputs/
 input/
 .DS_Store
+
+# Local Netlify folder
+.netlify

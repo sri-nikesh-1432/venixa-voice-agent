@@ -1,4 +1,5 @@
-service,price,duration,description
-support,Customer support and technical help,1 Month,Product information, pricing, and purchasing questions
-integration,Integration and setup guidance,3 Months,setup integrate api connect install configure
-general,General questions and chat,1 Month,question hello hi chat talk conversation
+service_name,description,keywords
+support,Customer support and technical help,help support issue problem error
+sales,"Product information, pricing, and purchasing questions",pricing buy cost purchase product
+integration,Integration and setup guidance,setup integrate api connect install configure
+general,General questions and chat,question hello hi chat talk conversation
