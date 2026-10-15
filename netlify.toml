@@ -1,0 +1,18 @@
+[build]
+command = "pip install -r requirements.txt"
+command_origin = "silent"
+publish = "dist"
+
+[build.environment]
+PYTHON_VERSION = "3.13"
+
+[[redirects]]
+from = "/(.*)"
+to = "/.netlify/functions/backend/:splat"
+status = 200
+force = true
+
+[[headers]]
+for = "/assets/*"
+status = "200"
+values = { CacheControl = "public, max-age=3600" }
