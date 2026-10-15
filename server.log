@@ -1,0 +1,59 @@
+INFO:     Started server process [3484]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:50750 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50750 - "GET /v1/models HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50751 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50752 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52029 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52029 - "GET /v1/models HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49331 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49331 - "GET /v1/models HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59909 - "POST /ask HTTP/1.1" 422 Unprocessable Content
+INFO:     127.0.0.1:64001 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64001 - "GET /v1/models HTTP/1.1" 404 Not Found
+C:\Users\chint\AppData\Local\Programs\Python\Python313\Lib\site-packages\whisper\transcribe.py:132: UserWarning: FP16 is not supported on CPU; using FP32 instead
+  warnings.warn("FP16 is not supported on CPU; using FP32 instead")
+INFO:     127.0.0.1:56185 - "POST /ask HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:57944 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57944 - "GET /v1/models HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61753 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61754 - "POST /ask HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:61764 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61764 - "GET /v1/models HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56422 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56422 - "GET /v1/models HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58397 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58397 - "GET /v1/models HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58406 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58406 - "GET /v1/models HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51571 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51576 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51576 - "GET /v1/models HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51578 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51578 - "GET /v1/models HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51590 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51590 - "GET /v1/models HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61958 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61958 - "GET /v1/models HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61962 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61962 - "GET /v1/models HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56201 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56201 - "GET /v1/models HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56205 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56205 - "GET /v1/models HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59182 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59182 - "GET /v1/models HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59201 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59201 - "GET /v1/models HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59208 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59208 - "GET /v1/models HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59213 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59213 - "GET /v1/models HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52025 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52026 - "GET /v1/models HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50653 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50653 - "GET /v1/models HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57054 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57054 - "GET /v1/models HTTP/1.1" 404 Not Found
